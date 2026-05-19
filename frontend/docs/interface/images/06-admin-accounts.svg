@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .bg { fill:#f7f8fa; }
+      .card { fill:#ffffff; stroke:#dfe3e8; stroke-width:1.2; filter:url(#shadow); }
+      .cardSoft { fill:#ffffff; stroke:#e5e7eb; stroke-width:1.1; }
+      .title { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:30px; font-weight:700; fill:#111827; }
+      .h1 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:26px; font-weight:700; fill:#111827; }
+      .h2 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:20px; font-weight:700; fill:#111827; }
+      .text { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; fill:#374151; }
+      .small { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:13px; fill:#6b7280; }
+      .mono { font-family:"SFMono-Regular","Consolas",monospace; font-size:14px; fill:#374151; }
+      .muted { fill:#6b7280; }
+      .line { stroke:#e5e7eb; stroke-width:1; }
+      .btn { fill:#ffffff; stroke:#d1d5db; stroke-width:1.2; }
+      .btnDanger { fill:#fff; stroke:#ef4444; stroke-width:1.2; }
+      .dangerText { fill:#dc2626; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:600; }
+      .greenText { fill:#15803d; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; font-weight:700; }
+      .badge { fill:#f3f4f6; stroke:#d1d5db; stroke-width:1; }
+      .badgeOk { fill:#eaf7ee; stroke:#86c993; stroke-width:1; }
+      .badgeWarn { fill:#fff7ed; stroke:#fdba74; stroke-width:1; }
+      .badgeDanger { fill:#fef2f2; stroke:#fca5a5; stroke-width:1; }
+      .selected { fill:#f0f9f2; stroke:#16a34a; stroke-width:1.6; }
+      .terminal { fill:#0f171a; stroke:#111827; stroke-width:1; }
+      .termText { font-family:"SFMono-Regular","Consolas",monospace; font-size:15px; fill:#e5e7eb; }
+      .termGreen { font-family:"SFMono-Regular","Consolas",monospace; font-size:15px; fill:#86efac; }
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+<rect x="0" y="0" width="1600" height="96" rx="0" class="cardSoft"/>
+<text x="32" y="38" class="small">Archivon</text>
+<text x="32" y="74" class="title">Archivon</text>
+<rect x="1430" y="30" width="140" height="46" rx="8" class="btn"/>
+<text x="1500.0" y="59.0" class="text" text-anchor="middle">Sign out</text>
+<rect x="24" y="124" width="280" height="190" rx="18" class="card"/>
+<text x="44" y="164" class="h2">Session</text>
+<line x1="24" y1="184" x2="304" y2="184" class="line"/>
+<text x="44" y="220" class="small">User</text>
+<text x="44" y="244" class="text">superadmin</text>
+<text x="44" y="282" class="small">Role</text>
+<text x="44" y="306" class="text">Super Admin</text>
+<rect x="24" y="340" width="280" height="160" rx="18" class="card"/>
+<text x="44" y="380" class="h2">System</text>
+<text x="44" y="424" class="small">Status</text>
+<rect x="180" y="402" width="84" height="30" rx="8" class="badgeOk"/>
+<text x="222.0" y="422.0" class="greenText" text-anchor="middle" style="font-size:14px">ready</text>
+<text x="44" y="466" class="small">Environment</text>
+<text x="180" y="466" class="text">production</text>
+<rect x="24" y="524" width="280" height="180" rx="18" class="card"/>
+<text x="44" y="564" class="h2">KMS</text>
+<text x="44" y="608" class="small">Provider</text>
+<text x="160" y="608" class="text">local</text>
+<text x="44" y="650" class="small">State</text>
+<rect x="180" y="628" width="84" height="30" rx="8" class="badgeOk"/>
+<text x="222.0" y="648.0" class="greenText" text-anchor="middle" style="font-size:14px">available</text>
+<rect x="326" y="124" width="1250" height="70" rx="14" class="card"/>
+<rect x="344" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="360" y="165" class="text">Storage</text>
+<rect x="516" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="532.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">6</text>
+<rect x="582" y="140" width="220" height="38" rx="10" class="selected"/>
+<text x="598" y="165" class="text">Accounts</text>
+<rect x="754" y="146" width="32" height="26" rx="8" class="badgeOk"/>
+<text x="770.0" y="164.0" class="greenText" text-anchor="middle" style="font-size:14px">12</text>
+<rect x="820" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="836" y="165" class="text">Access</text>
+<rect x="992" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="1008.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">3</text>
+<rect x="1058" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="1074" y="165" class="text">Compute</text>
+<rect x="1230" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="1246.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">2</text>
+<rect x="1296" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="1312" y="165" class="text">Audit Log</text>
+<rect x="1468" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="1484.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">30</text>
+<rect x="326" y="218" width="580" height="250" rx="18" class="card"/>
+<text x="350" y="258" class="h2">Login Sessions</text>
+<rect x="350" y="298" width="160" height="82" rx="12" class="cardSoft"/>
+<text x="366" y="328" class="small">Login TTL</text>
+<text x="366" y="362" class="text">12 h</text>
+<rect x="525" y="298" width="160" height="82" rx="12" class="cardSoft"/>
+<text x="541" y="328" class="small">Clients</text>
+<text x="541" y="362" class="text">latest login wins</text>
+<rect x="700" y="298" width="160" height="82" rx="12" class="cardSoft"/>
+<text x="716" y="328" class="small">Admins</text>
+<text x="716" y="362" class="text">parallel</text>
+<rect x="350" y="404" width="180" height="42" rx="8" class="btn"/>
+<text x="440.0" y="431.0" class="text" text-anchor="middle">Save Login TTL</text>
+<rect x="326" y="492" width="580" height="458" rx="18" class="card"/>
+<text x="350" y="532" class="h2">Create User</text>
+<rect x="350" y="570" width="230" height="48" rx="10" class="btn"/>
+<text x="366" y="600" class="small">Username</text>
+<rect x="602" y="570" width="140" height="48" rx="10" class="btn"/>
+<text x="618" y="600" class="small">Role: client</text>
+<rect x="350" y="646" width="392" height="48" rx="10" class="btn"/>
+<text x="366" y="676" class="small">Description</text>
+<rect x="350" y="724" width="180" height="42" rx="8" class="btn"/>
+<text x="440.0" y="751.0" class="text" text-anchor="middle">Create User</text>
+<rect x="928" y="218" width="648" height="732" rx="18" class="card"/>
+<text x="952" y="258" class="h2">User Accounts</text>
+<rect x="1488" y="238" width="42" height="28" rx="8" class="badge"/>
+<text x="1509.0" y="257.0" class="small" text-anchor="middle" style="font-size:14px">12</text>
+<rect x="952" y="304" width="590" height="80" rx="12" class="cardSoft"/>
+<text x="976" y="338" class="h2">superadmin</text>
+<text x="976" y="364" class="small">Super Admin</text>
+<rect x="1220" y="329" width="130" height="30" rx="8" class="badgeOk"/>
+<text x="1285.0" y="349.0" class="greenText" text-anchor="middle" style="font-size:14px">active</text>
+<rect x="1370" y="326" width="70" height="34" rx="8" class="btn"/>
+<text x="1405.0" y="349.0" class="text" text-anchor="middle">Reset</text>
+<rect x="1450" y="326" width="70" height="34" rx="8" class="btn"/>
+<text x="1485.0" y="349.0" class="text" text-anchor="middle">Block</text>
+<rect x="952" y="404" width="590" height="80" rx="12" class="cardSoft"/>
+<text x="976" y="438" class="h2">client-alpha</text>
+<text x="976" y="464" class="small">Client</text>
+<rect x="1220" y="429" width="130" height="30" rx="8" class="badgeOk"/>
+<text x="1285.0" y="449.0" class="greenText" text-anchor="middle" style="font-size:14px">active</text>
+<rect x="1370" y="426" width="70" height="34" rx="8" class="btn"/>
+<text x="1405.0" y="449.0" class="text" text-anchor="middle">Reset</text>
+<rect x="1450" y="426" width="70" height="34" rx="8" class="btn"/>
+<text x="1485.0" y="449.0" class="text" text-anchor="middle">Block</text>
+<rect x="952" y="504" width="590" height="80" rx="12" class="cardSoft"/>
+<text x="976" y="538" class="h2">client-beta</text>
+<text x="976" y="564" class="small">Client</text>
+<rect x="1220" y="529" width="130" height="30" rx="8" class="badgeWarn"/>
+<text x="1285.0" y="549.0" class="small" text-anchor="middle" style="font-size:14px">password change</text>
+<rect x="1370" y="526" width="70" height="34" rx="8" class="btn"/>
+<text x="1405.0" y="549.0" class="text" text-anchor="middle">Reset</text>
+<rect x="1450" y="526" width="70" height="34" rx="8" class="btn"/>
+<text x="1485.0" y="549.0" class="text" text-anchor="middle">Block</text>
+<rect x="952" y="604" width="590" height="80" rx="12" class="cardSoft"/>
+<text x="976" y="638" class="h2">operator</text>
+<text x="976" y="664" class="small">Admin</text>
+<rect x="1220" y="629" width="130" height="30" rx="8" class="badgeDanger"/>
+<text x="1285.0" y="649.0" class="dangerText" text-anchor="middle" style="font-size:14px">blocked</text>
+<rect x="1370" y="626" width="70" height="34" rx="8" class="btn"/>
+<text x="1405.0" y="649.0" class="text" text-anchor="middle">Reset</text>
+<rect x="1450" y="626" width="70" height="34" rx="8" class="btn"/>
+<text x="1485.0" y="649.0" class="text" text-anchor="middle">Unblock</text>
+</svg>

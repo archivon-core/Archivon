@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .bg { fill:#f7f8fa; }
+      .card { fill:#ffffff; stroke:#dfe3e8; stroke-width:1.2; filter:url(#shadow); }
+      .cardSoft { fill:#ffffff; stroke:#e5e7eb; stroke-width:1.1; }
+      .title { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:30px; font-weight:700; fill:#111827; }
+      .h1 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:26px; font-weight:700; fill:#111827; }
+      .h2 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:20px; font-weight:700; fill:#111827; }
+      .text { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; fill:#374151; }
+      .small { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:13px; fill:#6b7280; }
+      .mono { font-family:"SFMono-Regular","Consolas",monospace; font-size:14px; fill:#374151; }
+      .muted { fill:#6b7280; }
+      .line { stroke:#e5e7eb; stroke-width:1; }
+      .btn { fill:#ffffff; stroke:#d1d5db; stroke-width:1.2; }
+      .btnDanger { fill:#fff; stroke:#ef4444; stroke-width:1.2; }
+      .dangerText { fill:#dc2626; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:600; }
+      .greenText { fill:#15803d; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; font-weight:700; }
+      .badge { fill:#f3f4f6; stroke:#d1d5db; stroke-width:1; }
+      .badgeOk { fill:#eaf7ee; stroke:#86c993; stroke-width:1; }
+      .badgeWarn { fill:#fff7ed; stroke:#fdba74; stroke-width:1; }
+      .badgeDanger { fill:#fef2f2; stroke:#fca5a5; stroke-width:1; }
+      .selected { fill:#f0f9f2; stroke:#16a34a; stroke-width:1.6; }
+      .terminal { fill:#0f171a; stroke:#111827; stroke-width:1; }
+      .termText { font-family:"SFMono-Regular","Consolas",monospace; font-size:15px; fill:#e5e7eb; }
+      .termGreen { font-family:"SFMono-Regular","Consolas",monospace; font-size:15px; fill:#86efac; }
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+<rect x="0" y="0" width="1600" height="96" rx="0" class="cardSoft"/>
+<text x="32" y="38" class="small">Archivon</text>
+<text x="32" y="74" class="title">Archivon</text>
+<rect x="1430" y="30" width="140" height="46" rx="8" class="btn"/>
+<text x="1500.0" y="59.0" class="text" text-anchor="middle">Sign out</text>
+<rect x="24" y="124" width="280" height="190" rx="18" class="card"/>
+<text x="44" y="164" class="h2">Session</text>
+<line x1="24" y1="184" x2="304" y2="184" class="line"/>
+<text x="44" y="220" class="small">User</text>
+<text x="44" y="244" class="text">superadmin</text>
+<text x="44" y="282" class="small">Role</text>
+<text x="44" y="306" class="text">Super Admin</text>
+<rect x="24" y="340" width="280" height="160" rx="18" class="card"/>
+<text x="44" y="380" class="h2">System</text>
+<text x="44" y="424" class="small">Status</text>
+<rect x="180" y="402" width="84" height="30" rx="8" class="badgeOk"/>
+<text x="222.0" y="422.0" class="greenText" text-anchor="middle" style="font-size:14px">ready</text>
+<text x="44" y="466" class="small">Environment</text>
+<text x="180" y="466" class="text">production</text>
+<rect x="24" y="524" width="280" height="180" rx="18" class="card"/>
+<text x="44" y="564" class="h2">KMS</text>
+<text x="44" y="608" class="small">Provider</text>
+<text x="160" y="608" class="text">local</text>
+<text x="44" y="650" class="small">State</text>
+<rect x="180" y="628" width="84" height="30" rx="8" class="badgeOk"/>
+<text x="222.0" y="648.0" class="greenText" text-anchor="middle" style="font-size:14px">available</text>
+<rect x="326" y="124" width="1250" height="70" rx="14" class="card"/>
+<rect x="344" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="360" y="165" class="text">Storage</text>
+<rect x="516" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="532.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">6</text>
+<rect x="582" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="598" y="165" class="text">Accounts</text>
+<rect x="754" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="770.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">12</text>
+<rect x="820" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="836" y="165" class="text">Access</text>
+<rect x="992" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="1008.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">3</text>
+<rect x="1058" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="1074" y="165" class="text">Compute</text>
+<rect x="1230" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="1246.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">2</text>
+<rect x="1296" y="140" width="220" height="38" rx="10" class="selected"/>
+<text x="1312" y="165" class="text">Audit Log</text>
+<rect x="1468" y="146" width="32" height="26" rx="8" class="badgeOk"/>
+<text x="1484.0" y="164.0" class="greenText" text-anchor="middle" style="font-size:14px">30</text>
+<rect x="326" y="218" width="1248" height="240" rx="18" class="card"/>
+<text x="350" y="258" class="h2">Audit Cleanup Policy</text>
+<rect x="350" y="304" width="230" height="84" rx="12" class="cardSoft"/>
+<text x="366" y="336" class="small">Retention</text>
+<text x="366" y="370" class="text">180 days</text>
+<rect x="600" y="304" width="230" height="84" rx="12" class="cardSoft"/>
+<text x="616" y="336" class="small">Clear all</text>
+<text x="616" y="370" class="text">disabled</text>
+<rect x="850" y="304" width="230" height="84" rx="12" class="cardSoft"/>
+<text x="866" y="336" class="small">Backup</text>
+<text x="866" y="370" class="text">required</text>
+<rect x="1100" y="304" width="230" height="84" rx="12" class="cardSoft"/>
+<text x="1116" y="336" class="small">Restore</text>
+<text x="1116" y="370" class="text">checksum required</text>
+<rect x="350" y="410" width="160" height="36" rx="8" class="btn"/>
+<text x="430.0" y="434.0" class="text" text-anchor="middle">Save policy</text>
+<rect x="526" y="410" width="160" height="36" rx="8" class="btn"/>
+<text x="606.0" y="434.0" class="text" text-anchor="middle">Export audit</text>
+<rect x="326" y="486" width="800" height="464" rx="18" class="card"/>
+<text x="350" y="526" class="h2">Recent Events</text>
+<rect x="350" y="570" width="740" height="58" rx="10" class="cardSoft"/>
+<rect x="370" y="585" width="74" height="28" rx="8" class="badgeOk"/>
+<text x="407.0" y="604.0" class="greenText" text-anchor="middle" style="font-size:14px">info</text>
+<text x="462" y="605" class="text">auth.login</text>
+<text x="670" y="605" class="small">user</text>
+<text x="770" y="605" class="text">client-alpha</text>
+<rect x="350" y="642" width="740" height="58" rx="10" class="cardSoft"/>
+<rect x="370" y="657" width="74" height="28" rx="8" class="badgeOk"/>
+<text x="407.0" y="676.0" class="greenText" text-anchor="middle" style="font-size:14px">info</text>
+<text x="462" y="677" class="text">pow.job.succeeded</text>
+<text x="670" y="677" class="small">folder</text>
+<text x="770" y="677" class="text">Contracts 2026</text>
+<rect x="350" y="714" width="740" height="58" rx="10" class="cardSoft"/>
+<rect x="370" y="729" width="74" height="28" rx="8" class="badgeOk"/>
+<text x="407.0" y="748.0" class="greenText" text-anchor="middle" style="font-size:14px">info</text>
+<text x="462" y="749" class="text">file.download</text>
+<text x="670" y="749" class="small">file</text>
+<text x="770" y="749" class="text">msa_2026.pdf</text>
+<rect x="350" y="786" width="740" height="58" rx="10" class="cardSoft"/>
+<rect x="370" y="801" width="74" height="28" rx="8" class="badgeWarn"/>
+<text x="407.0" y="820.0" class="small" text-anchor="middle" style="font-size:14px">warn</text>
+<text x="462" y="821" class="text">auth.blocked</text>
+<text x="670" y="821" class="small">user</text>
+<text x="770" y="821" class="text">operator</text>
+<rect x="350" y="858" width="740" height="58" rx="10" class="cardSoft"/>
+<rect x="370" y="873" width="74" height="28" rx="8" class="badgeDanger"/>
+<text x="407.0" y="892.0" class="dangerText" text-anchor="middle" style="font-size:14px">error</text>
+<text x="462" y="893" class="text">verify.mismatch</text>
+<text x="670" y="893" class="small">file</text>
+<text x="770" y="893" class="text">nda_partner_a.pdf</text>
+<rect x="1150" y="486" width="424" height="464" rx="18" class="card"/>
+<text x="1174" y="526" class="h2">Backups</text>
+<rect x="1174" y="570" width="360" height="72" rx="10" class="cardSoft"/>
+<text x="1194" y="600" class="mono">backup-20260519</text>
+<text x="1194" y="624" class="small">file activity / 42 events</text>
+<rect x="1430" y="588" width="80" height="34" rx="8" class="btn"/>
+<text x="1470.0" y="611.0" class="text" text-anchor="middle">Restore</text>
+<rect x="1174" y="660" width="360" height="72" rx="10" class="cardSoft"/>
+<text x="1194" y="690" class="mono">backup-20260510</text>
+<text x="1194" y="714" class="small">audit export / 198 events</text>
+<rect x="1430" y="678" width="80" height="34" rx="8" class="btn"/>
+<text x="1470.0" y="701.0" class="text" text-anchor="middle">Restore</text>
+<rect x="1174" y="750" width="360" height="72" rx="10" class="cardSoft"/>
+<text x="1194" y="780" class="mono">backup-20260428</text>
+<text x="1194" y="804" class="small">file activity / 72 events</text>
+<rect x="1430" y="768" width="80" height="34" rx="8" class="btn"/>
+<text x="1470.0" y="791.0" class="text" text-anchor="middle">Restore</text>
+</svg>

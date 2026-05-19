@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .bg { fill:#f7f8fa; }
+      .card { fill:#ffffff; stroke:#dfe3e8; stroke-width:1.2; filter:url(#shadow); }
+      .cardSoft { fill:#ffffff; stroke:#e5e7eb; stroke-width:1.1; }
+      .title { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:30px; font-weight:700; fill:#111827; }
+      .h1 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:26px; font-weight:700; fill:#111827; }
+      .h2 { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:20px; font-weight:700; fill:#111827; }
+      .text { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; fill:#374151; }
+      .small { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:13px; fill:#6b7280; }
+      .mono { font-family:"SFMono-Regular","Consolas",monospace; font-size:14px; fill:#374151; }
+      .muted { fill:#6b7280; }
+      .line { stroke:#e5e7eb; stroke-width:1; }
+      .btn { fill:#ffffff; stroke:#d1d5db; stroke-width:1.2; }
+      .btnDanger { fill:#fff; stroke:#ef4444; stroke-width:1.2; }
+      .dangerText { fill:#dc2626; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:16px; font-weight:600; }
+      .greenText { fill:#15803d; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; font-size:14px; font-weight:700; }
+      .badge { fill:#f3f4f6; stroke:#d1d5db; stroke-width:1; }
+      .badgeOk { fill:#eaf7ee; stroke:#86c993; stroke-width:1; }
+      .badgeWarn { fill:#fff7ed; stroke:#fdba74; stroke-width:1; }
+      .badgeDanger { fill:#fef2f2; stroke:#fca5a5; stroke-width:1; }
+      .selected { fill:#f0f9f2; stroke:#16a34a; stroke-width:1.6; }
+      .terminal { fill:#0f171a; stroke:#111827; stroke-width:1; }
+      .termText { font-family:"SFMono-Regular","Consolas",monospace; font-size:15px; fill:#e5e7eb; }
+      .termGreen { font-family:"SFMono-Regular","Consolas",monospace; font-size:15px; fill:#86efac; }
+    </style>
+  </defs>
+  <rect class="bg" width="1600" height="1000"/>
+<rect x="0" y="0" width="1600" height="96" rx="0" class="cardSoft"/>
+<text x="32" y="38" class="small">Archivon</text>
+<text x="32" y="74" class="title">Archivon</text>
+<rect x="1430" y="30" width="140" height="46" rx="8" class="btn"/>
+<text x="1500.0" y="59.0" class="text" text-anchor="middle">Sign out</text>
+<rect x="24" y="124" width="280" height="190" rx="18" class="card"/>
+<text x="44" y="164" class="h2">Session</text>
+<line x1="24" y1="184" x2="304" y2="184" class="line"/>
+<text x="44" y="220" class="small">User</text>
+<text x="44" y="244" class="text">superadmin</text>
+<text x="44" y="282" class="small">Role</text>
+<text x="44" y="306" class="text">Super Admin</text>
+<rect x="24" y="340" width="280" height="160" rx="18" class="card"/>
+<text x="44" y="380" class="h2">System</text>
+<text x="44" y="424" class="small">Status</text>
+<rect x="180" y="402" width="84" height="30" rx="8" class="badgeOk"/>
+<text x="222.0" y="422.0" class="greenText" text-anchor="middle" style="font-size:14px">ready</text>
+<text x="44" y="466" class="small">Environment</text>
+<text x="180" y="466" class="text">production</text>
+<rect x="24" y="524" width="280" height="180" rx="18" class="card"/>
+<text x="44" y="564" class="h2">KMS</text>
+<text x="44" y="608" class="small">Provider</text>
+<text x="160" y="608" class="text">local</text>
+<text x="44" y="650" class="small">State</text>
+<rect x="180" y="628" width="84" height="30" rx="8" class="badgeOk"/>
+<text x="222.0" y="648.0" class="greenText" text-anchor="middle" style="font-size:14px">available</text>
+<rect x="326" y="124" width="1250" height="70" rx="14" class="card"/>
+<rect x="344" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="360" y="165" class="text">Storage</text>
+<rect x="516" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="532.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">6</text>
+<rect x="582" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="598" y="165" class="text">Accounts</text>
+<rect x="754" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="770.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">12</text>
+<rect x="820" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="836" y="165" class="text">Access</text>
+<rect x="992" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="1008.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">3</text>
+<rect x="1058" y="140" width="220" height="38" rx="10" class="selected"/>
+<text x="1074" y="165" class="text">Compute</text>
+<rect x="1230" y="146" width="32" height="26" rx="8" class="badgeOk"/>
+<text x="1246.0" y="164.0" class="greenText" text-anchor="middle" style="font-size:14px">2</text>
+<rect x="1296" y="140" width="220" height="38" rx="10" class="btn"/>
+<text x="1312" y="165" class="text">Audit Log</text>
+<rect x="1468" y="146" width="32" height="26" rx="8" class="badge"/>
+<text x="1484.0" y="164.0" class="small" text-anchor="middle" style="font-size:14px">30</text>
+<rect x="326" y="218" width="560" height="300" rx="18" class="card"/>
+<text x="350" y="258" class="h2">Compute Gateway Settings</text>
+<text x="350" y="306" class="small">Enabled</text>
+<rect x="350" y="318" width="210" height="42" rx="10" class="btn"/>
+<text x="364" y="346" class="text">true</text>
+<text x="600" y="306" class="small">Bind address</text>
+<rect x="600" y="318" width="210" height="42" rx="10" class="btn"/>
+<text x="614" y="346" class="text">0.0.0.0</text>
+<text x="350" y="382" class="small">Stratum port</text>
+<rect x="350" y="394" width="210" height="42" rx="10" class="btn"/>
+<text x="364" y="422" class="text">3333</text>
+<text x="600" y="382" class="small">Share difficulty</text>
+<rect x="600" y="394" width="210" height="42" rx="10" class="btn"/>
+<text x="614" y="422" class="text">4096</text>
+<text x="350" y="458" class="small">Extranonce2 size</text>
+<rect x="350" y="470" width="210" height="42" rx="10" class="btn"/>
+<text x="364" y="498" class="text">8</text>
+<text x="600" y="458" class="small">Password</text>
+<rect x="600" y="470" width="210" height="42" rx="10" class="btn"/>
+<text x="614" y="498" class="text">configured</text>
+<rect x="350" y="450" width="200" height="42" rx="8" class="btn"/>
+<text x="450.0" y="477.0" class="text" text-anchor="middle">Save settings</text>
+<rect x="910" y="218" width="666" height="300" rx="18" class="card"/>
+<text x="934" y="258" class="h2">Runtime</text>
+<rect x="934" y="306" width="145" height="84" rx="12" class="cardSoft"/>
+<text x="946" y="338" class="small">Running</text>
+<text x="946" y="368" class="text">yes</text>
+<rect x="1089" y="306" width="145" height="84" rx="12" class="cardSoft"/>
+<text x="1101" y="338" class="small">Listen</text>
+<text x="1101" y="368" class="text">0.0.0.0:3333</text>
+<rect x="1244" y="306" width="145" height="84" rx="12" class="cardSoft"/>
+<text x="1256" y="338" class="small">Active connections</text>
+<text x="1256" y="368" class="text">2</text>
+<rect x="1399" y="306" width="145" height="84" rx="12" class="cardSoft"/>
+<text x="1411" y="338" class="small">Active job</text>
+<text x="1411" y="368" class="text">pow-job-001</text>
+<rect x="326" y="546" width="600" height="404" rx="18" class="card"/>
+<text x="350" y="586" class="h2">Workers</text>
+<rect x="350" y="632" width="540" height="70" rx="10" class="cardSoft"/>
+<text x="370" y="662" class="h2">sha256-node-01</text>
+<text x="370" y="686" class="small">13.8 TH/s / 128 valid</text>
+<rect x="760" y="652" width="100" height="30" rx="8" class="badgeOk"/>
+<text x="810.0" y="672.0" class="greenText" text-anchor="middle" style="font-size:14px">connected</text>
+<rect x="350" y="720" width="540" height="70" rx="10" class="cardSoft"/>
+<text x="370" y="750" class="h2">sha256-node-02</text>
+<text x="370" y="774" class="small">14.1 TH/s / 132 valid</text>
+<rect x="760" y="740" width="100" height="30" rx="8" class="badgeOk"/>
+<text x="810.0" y="760.0" class="greenText" text-anchor="middle" style="font-size:14px">connected</text>
+<rect x="350" y="808" width="540" height="70" rx="10" class="cardSoft"/>
+<text x="370" y="838" class="h2">test-node</text>
+<text x="370" y="862" class="small">0 TH/s / 0 valid</text>
+<rect x="760" y="828" width="100" height="30" rx="8" class="badge"/>
+<text x="810.0" y="848.0" class="small" text-anchor="middle" style="font-size:14px">idle</text>
+<rect x="952" y="546" width="624" height="404" rx="18" class="card"/>
+<text x="976" y="586" class="h2">Recent Shares</text>
+<rect x="976" y="632" width="560" height="62" rx="10" class="cardSoft"/>
+<text x="996" y="668" class="mono">09:14:05</text>
+<text x="1090" y="668" class="text">sha256-node-01</text>
+<rect x="1310" y="649" width="80" height="28" rx="8" class="badgeOk"/>
+<text x="1350.0" y="668.0" class="greenText" text-anchor="middle" style="font-size:14px">valid</text>
+<text x="1410" y="668" class="small">8.79 TH</text>
+<rect x="976" y="710" width="560" height="62" rx="10" class="cardSoft"/>
+<text x="996" y="746" class="mono">09:14:07</text>
+<text x="1090" y="746" class="text">sha256-node-02</text>
+<rect x="1310" y="727" width="80" height="28" rx="8" class="badgeOk"/>
+<text x="1350.0" y="746.0" class="greenText" text-anchor="middle" style="font-size:14px">valid</text>
+<text x="1410" y="746" class="small">8.79 TH</text>
+<rect x="976" y="788" width="560" height="62" rx="10" class="cardSoft"/>
+<text x="996" y="824" class="mono">09:14:15</text>
+<text x="1090" y="824" class="text">sha256-node-01</text>
+<rect x="1310" y="805" width="80" height="28" rx="8" class="badgeDanger"/>
+<text x="1350.0" y="824.0" class="dangerText" text-anchor="middle" style="font-size:14px">invalid</text>
+<text x="1410" y="824" class="small">bad nonce</text>
+</svg>
